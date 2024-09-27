@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/2.1.7/css/dataTables.dataTables.min.css">
+    <script src="//cdn.datatables.net/2.1.7/js/dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="contianer-md-4">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><h4>1</h4></div>
+            <div class="item"><h4>2</h4></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
+            <div class="item"><h4>6</h4></div>
+            <div class="item"><h4>7</h4></div>
+            <div class="item"><h4>8</h4></div>
+            <div class="item"><h4>9</h4></div>
+            <div class="item"><h4>10</h4></div>
+            <div class="item"><h4>11</h4></div>
+            <div class="item"><h4>12</h4></div>
+        </div>
+        
+<ul id="sortable">
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+  </ul>
+        <table class="table table-bordered table-striped" id="example">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Income</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>01</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Hari Limbu</td>
+                <td>Letang</td>
+                <td>2 lakh per menth</td>
+            </tr>
+            <tr>
+
+                <td>03</td>
+                <td>Ishwor Limbu</td>
+                <td>Letang</td>
+                <td>10 crore per menth</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Raju Limbu</td>
+                <td>Ktm</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Melabi Limbu</td>
+                <td>Letang</td>
+                <td>2 lakh per menth</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Divya Limbu</td>
+                <td>Letang</td>
+                <td>2 crore per menth</td>
+            </tr>
+</body>
+</table>
+</div>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+     $( "#sortable" ).sortable();
+
+    //let table= new DataTable(' #example');
+    new DataTable('#example', {
+    lengthMenu: [
+        [2, 5, 7, -1],   
+        ['two', 'a', 'four', 'All']
+    ],
+    //ordering: false,
+});
+</script>
+
+
+
+
+</html>
